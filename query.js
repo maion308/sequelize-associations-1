@@ -95,7 +95,7 @@ const findAllJohnsOrJanes = async () => {
 
 const run = async () => {
     await findAllWithTasks()
-    // await findAllJohnsWithTasks()
+    // await findSpecicTasks()
     // await findAll()
     // await createUser()
     // await destroyUser()
