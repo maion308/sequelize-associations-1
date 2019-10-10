@@ -9,7 +9,7 @@
 
 > Take five minutes and read the Sequelize docs on associations: 
 >
-> - https://git.generalassemb.ly/bruno/sequelize-associations
+> [Sequelize Association Docs](https://sequelize.org/master/class/lib/associations/base.js~Association.html)
 
 ##
 
