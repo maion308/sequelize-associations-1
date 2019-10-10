@@ -165,22 +165,11 @@ node query.js
 // Raw SQL: SELECT * FROM "Users" JOIN tasks ON "Tasks"."userId" = "Users".id;
 
 const findAllWithTasks = async () => {
-    const users = await User.findAll({
-        include: [{
-            model: Task
-        }]
-    });
-    console.log("All users with their associated tasks:", JSON.stringify(users, null, 4));
+    
 }
 
 const findSpecicTasks = async () => {
-    const users = await User.findAll({
-        include: [{
-            model: Task,
-            where: { title: "Work on Unit 3." }
-        }]
-    });
-    console.log("All users with their associated tasks:", JSON.stringify(users, null, 4));
+    
 }
 ```
 
