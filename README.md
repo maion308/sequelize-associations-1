@@ -173,7 +173,7 @@ const findAllWithTasks = async () => {
     console.log("All users with their associated tasks:", JSON.stringify(users, null, 4));
 }
 
-const findAllJohnsWithTasks = async () => {
+const findSpecicTasks = async () => {
     const users = await User.findAll({
         include: [{
             model: Task,
